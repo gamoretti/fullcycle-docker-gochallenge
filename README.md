@@ -5,21 +5,21 @@ Full Cycle Docker Go Challenge - Docker image less than 2MB.
 
 - Build a image from Dockerfile
 
-  `docker build -t gamoretti/codeeducation .`
+  ```docker build -t gamoretti/codeeducation .```
   
 - Run the image for test
 
-  `docker run --rm gamoretti/codeeducation`
+  ```docker run --rm gamoretti/codeeducation```
   
 - Push the image to Docker Hub
 
-  `docker push gamoretti/codeeducation`
+  ```docker push gamoretti/codeeducation```
   
  
  # Docker Hub Image
  
- To run the image in Docker Run execute the follow command:
+ To run the image from Docker Hub execute the follow command:
  
- `docker run gamoretti/codeeducation`
+ ```docker run gamoretti/codeeducation```
 
 
